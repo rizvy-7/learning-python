@@ -29,3 +29,7 @@ print("Hello", name)
 # strip removes extra spaces and title makes first letter capitalized
 title = input("Write down your full name: ").strip().title()
 print(f"Hello, {title}")
+
+# split users name into first and last name
+first, last = name.split(" ")
+print("Hello", first)
