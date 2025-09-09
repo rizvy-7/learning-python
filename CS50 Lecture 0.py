@@ -28,5 +28,4 @@ print("Hello", name)
 # string methods
 # strip removes extra spaces and title makes first letter capitalized
 title = input("Write down your full name: ").strip().title()
-
-print("Hello", title)
+print(f"Hello, {title}")
