@@ -1,4 +1,4 @@
-guess = 0
+guess = int(input("Guess the number: "))
 tries = 0
 
 while guess != 6 and tries < 5:

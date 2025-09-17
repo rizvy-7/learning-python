@@ -1,6 +1,6 @@
-hunger = 0
-cold = 101
-if hunger < 1 and cold > 100:
+hunger = int(input("Enter your hunger level: "))
+cold = int(input("Enter your cold level: "))
+if hunger < 10 or cold > 100:
     print('You Died!')
 else:
     print('You are healthy')
